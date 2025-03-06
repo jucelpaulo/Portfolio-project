@@ -6,11 +6,12 @@
 *{
     margin: 0;
     padding: 0;
-;}
-    
+}
 
 body{ 
     font-family:'Poppins', 'sans-serif';
+    background-image:url(assets/vecteezy_white-gradient-abstract-curve-pattern_22514324.jpeg);
+    background-repeat: no-repeat;
 }
 
 html{
@@ -377,6 +378,7 @@ article .icon {
 /*CONTACT*/
 
 #contact {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -402,6 +404,10 @@ article .icon {
     margin: 1rem;
 }
 
+.contact-info-container p {
+    font-size: larger;
+}
+
 .contact-icon {
     cursor :default
 }
@@ -418,5 +424,6 @@ footer {
 }
 
 footer p { 
+    /*position: relative; */
     text-align: center;
 }
